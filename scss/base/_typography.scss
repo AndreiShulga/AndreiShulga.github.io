@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "futura-pt-medium";
+  src: url(https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/fonts/futura-pt-medium.b650e9c2aaf6.woff2?51acc583ad04);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "futura-pt";
+  src: url(https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/fonts/futura-pt-book.2dadbb3c03c1.woff2?51acc583ad04);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "arial";
+  src: url(fonts/arial.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+$font-main: "futura-pt", sans-serif;
+$font-headings: "futura-pt-medium", sans-serif;
+$font-context: arial;
+$font-text-size: 1rem;
+

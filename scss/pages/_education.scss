@@ -1,0 +1,547 @@
+.pages__education{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100vw;
+	box-sizing: border-box;
+	background-color: $background-color-main;
+
+	&__text{
+		padding: 8.33333vw;
+
+		&_special{
+			display: flex;
+			flex-flow: row wrap;
+			padding-bottom: 0;
+		}
+
+		&__block{
+			display: flex;
+			flex-direction: column;
+
+			&_special{
+				margin-top: 2.25em;
+			}
+
+			&__content-heading{
+				margin-bottom: .7em;
+				font-size: 1.25*$font-text-size;
+				font-weight: bold;
+
+				&_special{
+					margin-top: 2em;
+				}
+			}
+
+			&__content-text{
+				margin-bottom: 1em;
+				font-family: $font-main;
+				font-size: $font-text-size;
+
+				&__list{
+					margin: 1em auto;
+					list-style: none;
+					padding: 0;
+					font-family: $font-main;
+
+					&-item{
+						position: relative;
+						padding-left: .7em;
+
+						&::before{
+							content: '';
+							display: block;
+							position: absolute;
+							height: 3px;
+							width: 3px;
+							top: .63em;
+							left: 0;
+							border-radius: 50%;
+							background-color: $color-main;
+						}
+					}
+
+					&-numb{
+						margin: 1em auto;
+						padding: 0;
+						font-family: $font-main;
+
+						&__item{
+							margin-left: 1.35em;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.heading, .text{
+	display: block;
+	box-sizing: border-box;
+}
+
+.heading{
+	@include line-height-standart(1.4);
+	font-size: 1.875*$font-text-size;
+	margin-top: -.35em;
+	margin-bottom: .75em;
+	font-weight: bold;
+
+	&__link{
+		text-decoration: none;
+
+		&_special::after{
+			content: "\00a0›";
+		}
+	}
+}
+
+.text{
+	font-family: $font-main;
+}
+
+.shop{
+	display: flex;
+	position: relative;
+	box-sizing: border-box;
+	padding: 8.33333vw 8.33333vw 4.16667vw 8.33333vw;
+	background: $background__shop-panel_one;
+
+	&__background{
+		display: none;
+		position: absolute;
+		box-sizing: border-box;
+		top: 0;
+		right: 0;
+		bottom: 0;
+
+		&-picture{
+			flex: 1;
+			margin-top: 25vw;
+			margin-left: 45%;
+			background: url("IMG/shop__background-picture.jpg") 50% 50%/cover no-repeat;
+
+			&_two{
+				margin: 0;
+				background: url("IMG/shop__background-picture_two.jpg") 50% 50%/cover no-repeat;
+			}
+		}
+	}
+
+	&_two{
+		background: $background__shop-panel_two;
+	}
+
+	&__container{
+		display: flex;
+		flex-direction: column;
+
+		&__contrent{
+			z-index: 1;
+			padding-bottom: 1.25rem;
+
+			&__heading{
+				@include line-height-standart(1.2);
+				font-size: 2.5*$font-text-size;
+				font-weight: bold;
+				margin-bottom: .35em;	
+			}
+
+			&__text{
+				font-size: 1.25*$font-text-size;
+				font-weight: bold;
+				margin-bottom: .7em;
+			}
+
+			&__link{
+				font-size: $font-text-size;
+				font-weight: bold;
+
+				&-one,
+				&-two{
+					display: block;
+					text-decoration: none;
+
+					&::after{
+						content: "\00a0›";
+					}
+				}
+			}
+		}
+
+		&__buy{
+			display: flex;
+			flex-flow: row wrap;
+
+			&__content{
+				z-index: 1;
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				max-width: 20rem;
+				margin-bottom: 4.16667vw;
+			}
+
+			&__block{
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				box-sizing: border-box;
+				min-height: 18.75rem;
+				color: $color-additional;
+
+				&-before{
+					position: relative;
+					box-sizing: border-box;
+					width: 100%;
+					padding: 4.16667vw;
+					color: $color-additional;
+					background-color: $color-main;
+
+					&__text{
+						position: relative;
+						z-index: 10;
+						margin-top: -.25em;
+						margin-bottom: -0.3em;
+						font-size: 1.25*$font-text-size;
+						font-weight: bold;
+					}
+
+					&::after{
+						content: '+';
+						position: absolute;
+						display: block;
+						width: 36px;
+						height: 36px;
+						line-height: 36px;
+						left: 4.16667vw;
+						bottom: 0;
+						margin-bottom: -18px;
+						border-radius: 36px;
+						font-size: 1.875*$font-text-size;
+						font-weight: bold;
+						text-align: center;
+						background-color: $color-main;
+					}
+				}
+				
+				&__header{
+					padding: 4.16667vw;
+					background-color: $background-color__buy__block__header-one;
+
+					&_special{
+						padding-top: 2em;
+					}
+
+					&_two{
+						background-color: $background-color__buy__block__header-two;
+					}
+
+					&-heading{
+						font-size: 1.25*$font-text-size;
+						font-weight: bold;
+						margin-top: -.25em;
+						margin-bottom: .5em;
+					}
+
+					&-text{
+						font-size: .875*$font-text-size;
+						font-weight: bold;
+					}
+				}
+
+				&__main{
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					height: 100%;
+					padding: 4.16667vw;
+					background-color: $background-color__buy__block__main-one;
+
+					&_two{
+						background-color: $background-color__buy__block__main-two;
+					}
+
+					&__price-old,
+					&__price-new{
+						font-size: $font-text-size;
+						font-weight: bold;
+						text-decoration-line: line-through;
+						margin-right: .5em;
+					}
+
+					&__price-new{
+						text-decoration-line: none;
+						color: $color__buy__block__main__price-new;
+					}
+
+					&__btn{
+						line-height: 24px;
+						margin-top: .5em;
+						border: 0;
+						padding: .35em 1.5em;
+						font-family: $font-headings;
+						font-size: $font-text-size;
+						font-weight: bold;
+						background-color: $background-color-main;
+						-moz-appearance: none;
+						-webkit-appearance: none;
+						cursor: pointer;
+
+						&_special{
+							color: $background-color__buy__block__main-two;
+						}
+					}
+				}
+			}
+
+			&__text{
+				margin-top: -4.16667vw;
+				padding-top: 1em;
+				padding-bottom: 4.16667vw;
+				font-size: $font-text-size;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 48em) {
+
+	.text{
+		width: 37.5vw;
+	}
+
+	.shop__background{
+		display: flex;
+		left: 60%;
+	}
+
+	.shop__container{
+		max-width: 75vw;
+
+		&__buy__content{
+			width: 25vw;
+			max-width: none;
+			padding-right: 4.16666vw;
+
+			&_one{
+				order: 1
+			}
+		}
+
+		&__buy__block{
+			min-height: 21.25rem;
+
+			&__header,
+			&__main{
+				padding: 2.08333vw;
+			}
+
+			&__header{
+				box-sizing: border-box;
+				min-height: 170px;
+
+				&_special{
+					padding-top: 2em;
+				}
+			}
+
+			&-before{
+				padding: 2.08333vw;
+
+				&::after{
+					left: 2.08333vw;
+				}
+			}
+		}
+
+		&__buy__text_special{
+			width: 29.16667vw;
+		}
+	}
+
+	.pages__education__text__block{
+		width: 37.5vw;
+		margin-right: 4.16667vw;
+
+		&_special{
+			margin-right: 0vw;
+			margin-left: 4.16667vw;
+			margin-top: 0;
+		}
+	}
+}
+
+@media screen and (min-width: 64em) {
+
+	.shop__background-picture{
+		margin-top: 20.83333vw;
+		margin-left: 35%;
+
+		&_two{
+			margin: 0;
+		}
+	}
+
+	.shop__container{
+		max-width: 66.66667vw;
+	}
+}
+
+
+@media screen and (min-width: 70.25em) {
+
+	.heading,
+	.shop__container__contrent__heading{
+		@include line-height-standart(1.1);
+		font-size: 3.75*$font-text-size;
+	}
+
+	.text,
+	.shop__container__contrent__link,
+	.shop__container__buy__block__main__price-new,
+	.shop__container__buy__block__main__btn,
+	.pages__education__text__block__content-text,
+	.pages__education__text__block__content-text__list-item,
+	.pages__education__text__block__content-text__list-numb__item,
+	.pages__education__text__block__content-text__list{
+		font-size: 1.25*$font-text-size;
+		@include line-height-standart(1.5);
+	}
+
+	.shop__container__contrent__text,
+	.shop__container__buy__block__header-heading,
+	.shop__container__buy__block-before__text,
+	.pages__education__text__block__content-heading{
+		@include line-height-standart(1.4);
+		font-size: 1.875*$font-text-size;
+	}
+
+	.shop__container__contrent{
+		padding-bottom: 2.25rem;
+	}
+}
+
+
+@media screen and (min-width: 80em) {
+
+	.shop__container__contrent{
+		width: 33.33333vw;
+	}
+
+	.shop__container__buy__content{
+		width: 16.66667vw;
+	}
+
+	.shop__background{
+		left: 45%;
+
+		&-picture{
+			margin-left: 30%;
+
+			&_two{
+				margin: 0;
+			}
+		}
+	}
+
+	.shop__container__buy__text_special{
+		width: 25vw;
+	}
+}
+
+
+
+@media screen and (min-width: 100em) {
+
+	.pages__education{
+		width: 1600px;
+	}
+
+	.pages__education__text{
+		padding: 133.33333px;
+
+		&_special{
+			padding-bottom: 0;
+		}
+	}
+
+	.text{
+		width: 600px;
+	}
+
+	.shop{
+		padding: 133.33333px 133.33333px 66.66667px 133.33333px;
+	}
+
+	.shop__container{
+		width: 933.33333px;
+	}
+
+	.shop__container__buy__block__header{
+		min-height: 108px;
+		box-sizing: content-box;
+		padding: 33.33333px;
+	}
+
+	.shop__container__contrent{
+		width: 533.33333px;
+	}
+
+	.shop__container__buy__content{
+		width: 266.66667px;
+		padding-right: 66.66667px;
+	}
+
+	.shop__background-picture{
+		margin-top: 333.33333px;
+
+		&_two{
+			margin: 0;
+		}
+	}
+
+	.shop__container__buy__block-before::after{
+		left: 33.33333px;
+	}
+
+	.shop__container__buy__block__main,
+	.shop__container__buy__block-before{
+		padding: 33.33333px;
+	}
+
+	.shop__container__buy__text{
+		width: 600px;
+		padding-bottom: 66.66667px;
+	}
+
+	.pages__education__text__block{
+		width: 600px;
+		margin-right: 66.66667px;
+
+		&_special{
+			margin-left: 66.66667px;
+			margin-right: 0px;
+		}
+	}
+}
+
+$sizes: 48, 64, 70.25, 80, 100, 120;
+$media-elements: 
+	"shop__background-picture", "shop__background-picture_two";
+
+@each $size in $sizes {
+	@media screen and (min-width: #{$size}em) {
+		@each $elem in $media-elements {
+			.#{$elem} {
+				background: url('IMG/#{$elem}_#{$size}.jpg') 50% 50%/cover no-repeat;
+			}
+		}
+	}
+}	
+
+
+
+

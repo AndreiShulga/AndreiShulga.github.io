@@ -1,0 +1,12 @@
+@use "utilities/_variables" as *;
+@use "utilities/_mixins" as *;
+
+@import "base/_typography";
+@import "base/_reset";
+
+@import "layout/_header";
+@import "components/_buttons";
+@import "layout/_navigation";
+@import "layout/_navigation-education";
+@import "pages/_education";
+@import "layout/_footer";

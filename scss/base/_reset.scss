@@ -1,0 +1,28 @@
+.container{
+	position: relative;
+	box-sizing: border-box;
+	margin: 0;
+	font-size: $font-text-size;
+	font-family: $font-headings;
+	@include line-height-standart(1.5);
+	color: $color-main;
+	background-color: $background-color-additional;
+	overflow-x: hidden;
+
+	&__main{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 100em) {
+	.container{
+		width: 100vw;
+
+		&__main {
+			max-width:100rem;
+			margin:0 auto;
+			background-color: $background-color-main;
+		}
+	}	
+}

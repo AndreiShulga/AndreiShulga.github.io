@@ -1,0 +1,52 @@
+.button{
+	position: relative;
+	display: flex;
+	align-items: center;
+	z-index: 35;
+
+	&__input{
+		display: none;
+	}
+
+	&__label{
+		position: relative;
+		top: 2.5px;
+		font-size: 1.25*$font-text-size;
+		cursor:pointer;
+	
+		&__arrow{
+			position: absolute;
+			background: url("IMG/icon-arrow.svg") 0 -1.5px/contain no-repeat; 
+			transform: scaleY(0.8);
+			width: 10px;
+			height: 8px;
+			top: 14px;
+			right: -18px;
+		}
+	}
+}
+
+@media screen and (min-width: 64em) {
+ 	.button{
+  		display:none
+ 	}
+}
+
+#btn:checked ~ .button *{
+	color: #fff;
+	transition-property: color;
+	transition-duration: 0.35s;
+}
+
+#btn:not(:checked) ~ .button *{
+	color: #000;
+	transition-property: color;
+	transition-duration: 0.35s;
+}
+
+#btn:checked ~ .button > .button__label > .button__label__arrow{
+	background: url("IMG/icon-arrow-white.svg") 0 -1.5px/contain no-repeat; 
+	transform: scaleY(0.8) rotateZ(180deg);
+	top: 13px;
+		
+}

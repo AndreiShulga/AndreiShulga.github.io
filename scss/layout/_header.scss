@@ -1,0 +1,58 @@
+.menu{
+	display: flex;
+	flex-direction: column;
+
+	&__main{
+		position: relative;
+		display: flex;
+		align-items: flex-start;
+		color: $color-main;
+		padding: 1.21875rem 1.25rem;
+		background-color: $background-color-main;
+	
+		&__logo{
+			margin-right: 2em;
+			z-index: 35;
+
+			&__image{
+			display: block;
+			width: 3.75em;
+			height: 1.75em;
+			}
+		}
+
+		#btn:checked + &__logo &__logo__image g{
+			fill: #fff;
+			transition-property: fill;
+			transition-duration: 0.35s;
+		}
+
+		#btn:not(:checked) + &__logo &__logo__image g{
+			fill: #000;
+			transition-property: fill;
+			transition-duration: 0.35s;
+		}
+	}
+}
+
+@media screen and (min-width: 64em) {
+	
+	.menu__main{
+		padding-bottom: 1.28125rem;
+
+		&__logo{
+	  		margin-right:1.5625rem
+	 	}
+	}
+}
+
+@media screen and (min-width: 80em) {
+
+	.menu__main{
+		padding-right: 2.5rem;
+
+		&__logo{
+	  		margin: 0 1.25rem;
+	 	}
+	 }
+}

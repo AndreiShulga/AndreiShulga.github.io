@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music production with Live and Push | Ableton</title>
+  <link rel="stylesheet" type="text/css" href="ableton.css">
+</head>
+<body class="container" id="cont">
+  <div class="container__main">
+    <div class="media" id="video-content">
+      <div class="media__background"></div>
+      <div class="media__content">
+        <div class="button-close__video">
+          <abbr class="hint__context hint__context_hidden hint__context_visible">Close (Esc)</abbr>
+        </div>
+        <div class="content__video" id="video_seven">
+          <iframe class="video" src="https://www.youtube.com/embed/h4trAHWsi9Q?enablejsapi=1"></iframe>
+          <div class="blog__post-text blog__post-text_special">Playing feedback</div>
+        </div>
+        <div class="content__video" id="video_eight">
+          <iframe class="video" src="https://www.youtube.com/embed/hlJCSmBxR0U?enablejsapi=1"></iframe>
+          <div class="blog__post-text blog__post-text_special">Tuned ambience</div>
+        </div>
+        <div class="content__video" id="video_nine">
+          <iframe class="video" src="https://www.youtube.com/embed/ZclgOcaZNyk?enablejsapi=1"></iframe>
+          <div class="blog__post-text blog__post-text_special">Sampling chaos</div>
+        </div>
+        <div class="content__video" id="video_eleven">
+          <iframe class="video" src="https://www.youtube.com/embed/Cp0rtLaXBio?enablejsapi=1"></iframe>
+          <div class="blog__post-text blog__post-text_special">Teaching Yourself to Make Music Software: Steve Duda in Conversation</div>
+        </div>
+      </div>
+    </div>
+    <header class="menu">
+      <div class="menu__main">
+        <input class="button__input" type="checkbox" id="btn">
+        <a class="menu__main__logo" href="ableton.html">
+          <svg class="menu__main__logo__image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="21px" viewBox="0 0 45 21" enable-background="new 0 0 45 21" xml:space="preserve">
+            <g>
+              <rect width="3" height="21"></rect>
+              <rect x="6" width="3" height="21"></rect>
+              <rect x="12" width="3" height="21"></rect>
+              <rect x="18" width="3" height="21"></rect>
+              <g>
+                <rect x="24" y="18" width="21" height="3"></rect>
+                <rect x="24" y="12" width="21" height="3"></rect>
+                <rect x="24" y="6" width="21" height="3"></rect>
+                <rect x="24" width="21" height="3"></rect>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <div class="button">
+          <label class="button__label" for="btn">
+            Menu
+            <span class="button__label__arrow"></span>
+          </label>
+        </div>
+        <div class="nav">
+          <nav class="nav__list">
+            <input type="checkbox" id="more">
+            <ul class="list">
+              <li class="item">
+                <a class="item__link" href="#">
+                  <span class="link__name">Live</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="item__link" href="#">
+                  <span class="link__name">Push</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="item__link" href="#">
+                  <span class="link__name">Link</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="item__link" href="education.html">
+                  <span class="link__name">Shop</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="item__link" href="#">
+                  <span class="link__name">Packs</span>
+                </a>
+              </li>
+              <li class="item">
+                <a class="item__link" href="#">
+                  <span class="link__name">Help</span>
+                </a>
+              </li>
+              <li class="item item__more">
+                <label class="link__name name_special" for="more">More
+                  <span class="more__hidden">
+                    <span class="more__icon"></span>
+                  </span>
+                  
+                </label>
+              </li>
+              <li class="item item_special-move">
+                <a class="item__link" href="#">
+                  <span class="link__name link__name_special-color">Try Live for free</span>
+                </a>
+              </li>
+              <li class="item item_small item_small-special">
+                <a class="item__link_small" href="#">
+                  <span class="link__name_small name_small-special">Log in or register</span>
+                </a>
+              </li>
+              <li class="item item_special item_special-move-left item_special-size">
+                <span class="link__name_headline">More on Ableton.com:</span>
+                <ul class="group__item group__item-special">
+                  <li class="item item_small">
+                    <a class="item__link_small" href="#">
+                      <span class="link__name_small">Blog</span>
+                    </a>
+                  </li>
+                  <li class="item item_small">
+                    <a class="item__link_small" href="#">
+                      <span class="link__name_small">Ableton in Education</span>
+                    </a>
+                  </li>
+                  <li class="item item_small">
+                    <a class="item__link_small" href="#">
+                      <span class="link__name_small">Certified Training</span>
+                    </a>
+                  </li>
+                  <li class="item item_small">
+                    <a class="item__link_small" href="about.html">
+                      <span class="link__name_small">About Ableton</span>
+                    </a>
+                  </li>
+                  <li class="item item_small">
+                    <a class="item__link_small" href="#">
+                      <span class="link__name_small">Jobs</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="item item_special item_special-move-left">
+                  <span class="link__name_headline link__name_headline-special">More from Ableton:</span>
+                  <ul class="group__item group__item_special group__item__shadow">
+                    <li class="item_special item_row item_row-special">
+                      <a class="item__link" href="#">
+                        <span class="link__name_special">Loop</span>
+                        <span class="link__name_text">A Summit for Music Makers. April&nbsp;24–26 2020, Berlin</span>
+                      </a>
+                    </li>
+                    <li class="item_special item_row">
+                      <a class="item__link" href="#">
+                        <span class="link__name_special">Learning Music</span>
+                        <span class="link__name_text">Learn the fundamentals of music making right in your browser.</span>
+                      </a>
+                    </li>
+                    <li class="item_special item_row">
+                      <a class="item__link" href="#">
+                        <span class="link__name_special">Learning Synths</span>
+                        <span class="link__name_text">Get started with synthesis using a web-based synth and accompanying lessons.</span>
+                      </a>
+                    </li>
+                    <li class="item_special item_row">
+                      <a class="item__link" href="#">
+                        <span class="link__name_special">Making Music</span>
+                        <span class="link__name_text">Some tips from 74 Creative Strategies for Electronic Producers.</span>
+                      </a>
+                    </li>
+                  </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="pages__home">
+      <div class="article">
+        <div class="article__container-one">
+          <div class="article__one">
+            <a href="#" class="article__text">
+              <span class="article__text-name">Critical Sonics: Political Voices in Electronic Music</span>
+              <div class="article__text-link">
+                <span class="text-link">Read the article</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="article__container-two">
+          <div class="article__two">
+            <a href="#" class="article__text article__text_two">
+              <span class="article__text-name article__text-name_two">Drop It: The Kick in Electronic Music</span>
+              <div class="article__text-link article__text-link_two">
+                <span class="text-link text-link_two">Download the free sample pack</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="article__container-three">
+          <div class="article__three">
+            <a href="#" class="article__text article__text_three">
+              <span class="article__text-name article__text-name_three">Ideas and Offers for Making Music at Home</span>
+              <div class="article__text-link article__text-link_three">
+                <span class="text-link text-link_three">Find out more</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="blog">
+        <span class="blog__name blog__name_special">The latest from Ableton</span>
+        <nav class="home-menu home-menu_special">
+          <ul class="home-menu__list">
+            <li class="list-item list-item_special">
+              <a class="list-item__link" href="#">All posts</a>
+            </li>
+            <li class="list-item list-item_special">
+              <a class="list-item__link" href="#">Artists</a>
+            </li>
+            <li class="list-item list-item_special">
+              <a class="list-item__link" href="#">News</a>
+            </li>
+            <li class="list-item list-item_special">
+              <a class="list-item__link" href="#">Downloads</a>
+            </li>
+            <li class="list-item list-item_special">
+              <a class="list-item__link" href="#">Tutorials</a>
+            </li>
+            <li class="list-item list-item_special">
+              <a class="list-item__link" href="#">Videos</a>
+            </li>
+            <li class="list-item list-item_special">
+              <a class="list-item__link" href="#">Loop</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="blog__post">
+          <a href="ableton.html" class="blog__post-link">
+            <div class="blog__post-media"></div>
+            <span class="blog__post-category">Downloads</span>
+            <span class="blog__post-text">Mixing Textures: Flore on Fluid Club Music</span>
+          </a>
+        </div>
+        <div class="blog__post">
+          <a href="#" class="blog__post-link">
+            <div class="blog__post-media blog__post-media_two"></div>
+            <span class="blog__post-category blog__post-category_two">Tutorials</span>
+            <span class="blog__post-text">Beyond the Echo Chamber:  Inventive Effects Using Live’s Delay Devices</span>
+          </a>
+        </div>
+        <div class="blog__post">
+          <a href="#" class="blog__post-link">
+            <div class="blog__post-media blog__post-media_three"></div>
+            <span class="blog__post-category blog__post-category_three">Downloads</span>
+            <span class="blog__post-text">Body Meat: Blending Worlds</span>
+          </a>
+        </div>
+        <a href="#" class="blog__link blog__link_special">
+          See all posts
+        </a>
+      </div>
+      <div class="blog">
+        <span class="blog__name">In focus: Sampling</span>
+        <div class="blog__post">
+          <a href="#" class="blog__post-link">
+            <div class="blog__post-media blog__post-media_four"></div>
+            <span class="blog__post-category blog__post-category_four">Tutorials</span>
+            <span class="blog__post-text">Simpler and Sampler: Pro Tips and Techniques from Slynk</span>
+          </a>
+        </div>
+        <div class="blog__post">
+          <a href="#" class="blog__post-link">
+            <div class="blog__post-media blog__post-media_five"></div>
+            <span class="blog__post-category blog__post-category_five">Loop</span>
+            <span class="blog__post-text">Start Here: How one sample spawned 800 tracks in 12 hours</span>
+          </a>
+        </div>
+        <div class="blog__post">
+          <a href="#" class="blog__post-link">
+            <div class="blog__post-media blog__post-media_six"></div>
+            <span class="blog__post-category blog__post-category_six">Artists</span>
+            <span class="blog__post-text">Footwork Celebrating Culture: Iyer’s Tamil Touch</span>
+          </a>
+        </div>
+        <a href="#" class="blog__link">
+          Discover more
+        </a>
+      </div>
+      <div class="blog">
+        <span class="blog__name">One Thing videos</span>
+        <div class="blog__post">
+          <div class="video-view" data-url="video_seven">
+            <span class="blog__post-media blog__post-media_seven media__video"></span>
+            <span class="blog__post-text blog__post-text_special">Playing feedback</span>
+          </div>
+        </div>
+        <div class="blog__post">
+          <div class="video-view" data-url="video_eight">
+            <span class="blog__post-media blog__post-media_eight media__video"></span>
+            <span class="blog__post-text blog__post-text_special">Tuned ambience</span>
+          </div>
+        </div>
+        <div class="blog__post">
+          <div class="video-view" data-url="video_nine">
+            <span class="blog__post-media blog__post-media_nine media__video"></span>
+            <span class="blog__post-text blog__post-text_special">Sampling chaos</span>
+          </div>
+        </div>
+        <a href="#" class="blog__link">
+          See all videos
+        </a>
+      </div>
+      <div class="blog">
+        <span class="blog__name">Videos and features from the Loop summit</span>
+        <div class="blog__post">
+          <a href="#" class="blog__post-link">
+            <div class="blog__post-media blog__post-media_ten"></div>
+            <span class="blog__post-text blog__post-text_special">Hollywood Soundwalks: A 360° exploration in sight and sound</span>
+          </a>
+        </div>
+        <div class="blog__post">
+          <div class="video-view" data-url="video_eleven">
+            <span class="blog__post-media blog__post-media_eleven media__video"></span>
+            <span class="blog__post-text blog__post-text_special">Teaching Yourself to Make Music Software: Steve Duda in Conversation</span>
+          </div>
+        </div>
+        <div class="blog__post">
+          <a href="#" class="blog__post-link">
+            <div class="blog__post-media blog__post-media_twelve"></div>
+            
+            <span class="blog__post-text blog__post-text_special">Lafawndah: Closing the Gap Between Artist and Audience</span>
+          </a>
+        </div>
+        <a href="#" class="blog__link">
+          See more
+        </a>
+      </div>
+      <nav class="home-menu home-menu_blog">
+        <ul class="home-menu__list home-menu__list_special">
+          <li class="list-item list-item_blog list-item_blog-special">More:</li>
+          <li class="list-item list-item_blog">
+            <a class="list-item__link" href="#">All posts</a>
+          </li>
+          <li class="list-item list-item_blog">
+            <a class="list-item__link" href="#">Artists</a>
+          </li>
+          <li class="list-item list-item_blog">
+            <a class="list-item__link" href="#">News</a>
+          </li>
+          <li class="list-item list-item_blog">
+            <a class="list-item__link" href="#">Downloads</a>
+          </li>
+          <li class="list-item list-item_blog">
+            <a class="list-item__link" href="#">Tutorials</a>
+          </li>
+          <li class="list-item list-item_blog">
+            <a class="list-item__link" href="#">Videos</a>
+          </li>
+          <li class="list-item list-item_blog">
+            <a class="list-item__link" href="#">Loop</a>
+          </li>
+          <li class="list-item list-item_blog list-item_blog-last">
+            <a class="list-item__link" href="#">One Thing</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__container">
+        <div class="page-footer__container-content">
+          <div class="content">
+            <div class="wordmark">
+              <img class="wordmark__image" src="IMG/ableton-wordmark.svg" alt="Ableton">
+            </div>
+          </div>
+          <div class="content">
+            <div class="sign-up">
+              <div class="sign-up__heading">Sign up to our newsletter</div>
+              <div class="sign-up__text">Enter your email address to stay up to date with the latest offers, tutorials, downloads and more.</div>
+              <div class="sign-up__mail">
+                <div class="mail">
+                  <div class="mail__container">
+                    <input name="email" type="email" class="mail__input" placeholder="Email Address">
+                  </div>
+                  <button class="mail__send">Sign up</button>
+                </div>
+              </div>
+            </div>
+            <div class="social">
+              <ul class="social__list">
+                <li class="social__list-item">
+                  <a class="social__list-item__link" href="#">Register Live or Push</a>
+                </li>
+                <li class="social__list-item">
+                  <a class="social__list-item__link" href="#">About Ableton</a>
+                </li>
+                <li class="social__list-item">
+                  <a class="social__list-item__link" href="#">Jobs</a>
+                </li>
+              </ul>
+              <div class="social__network">
+                <a class="social__network-link" href="http://facebook.com/ableton">
+                  <img class="social__network-link__image image_fb" src="IMG/facebook.svg" alt="facebook">
+                </a>
+                <a class="social__network-link" href="http://twitter.com/ableton">
+                  <img class="social__network-link__image image_tw" src="IMG/twitter.svg" alt="twitter">
+                </a>
+                <a class="social__network-link" href="http://youtube.com/ableton">
+                  <img class="social__network-link__image image_yt" src="IMG/youtube.svg" alt="youtube">
+                </a>
+                <a class="social__network-link" href="http://instagram.com/ableton">
+                  <img class="social__network-link__image" src="IMG/instagram.svg" alt="instagram">
+                </a>
+              </div>
+            </div>
+            <div class="education">
+              <div class="education__heading">Education</div>
+              <ul class="education__list">
+                <li class="education__list-item">
+                  <a class="education__list-item__link" href="#">Offers for students and teachers</a>
+                </li>
+                <li class="education__list-item">
+                  <a class="education__list-item__link" href="#">Offers for institutions</a>
+                </li>
+                <li class="education__list-item">
+                  <a class="education__list-item__link" href="#">Push 1 trade-in initiative</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <div class="community">
+              <div class="community__heading">Community</div>
+              <ul class="community__list">
+                <li class="community__list-item">
+                  <a class="community__list-item__link" href="#">Find Ableton User Groups</a>
+                </li>
+                <li class="community__list-item">
+                  <a class="community__list-item__link" href="#">Find Certified Training</a>
+                </li>
+                <li class="community__list-item">
+                  <a class="community__list-item__link" href="#">Become a Certified Trainer</a>
+                </li>
+              </ul>
+            </div>
+            <div class="distributors">
+              <div class="distributors__heading">Distributors</div>
+              <ul class="distributors__list">
+                <li class="distributors__list-item">
+                  <a class="distributors__list-item__link" href="#">Find Distributors</a>
+                </li>
+                <li class="distributors__list-item">
+                  <a class="distributors__list-item__link" href="#">Try Push in-store</a>
+                </li>
+              </ul>
+            </div>
+            <div class="language-location">
+              <div class="language-location__heading">Language and Location</div>
+              <div class="container__language-location">
+                <div class="container__language">
+                  <div class="language">
+                    <select class="language-choice" name="lang">
+                      <option value="en" selected="">English</option>
+                      <option value="de">Deutsch</option>
+                      <option value="fr">français</option>
+                      <option value="ja">日本語</option>
+                      <option value="zh-cn">简体中文</option>
+                    </select>
+                  </div></div>
+                <div class="container__location">
+                  <div class="location">
+                    <select class="location-choice" name="lang">
+                      <option value="">Please choose</option>
+                      <optgroup label="Common Countries">
+                        <option value="us">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="fr">France</option>
+                        <option value="de">Germany</option>
+                        <option value="ca">Canada</option>
+                        <option value="jp">Japan</option>
+                        <option value="cn">China</option>
+                      </optgroup>
+                      <optgroup label="All Countries/Regions">
+                        <option value="af">Afghanistan</option>
+                        <option value="ax">Aland Islands</option>
+                        <option value="al">Albania</option>
+                        <option value="dz">Algeria</option>
+                        <option value="as">American Samoa</option>
+                        <option value="ad">Andorra</option>
+                        <option value="ao">Angola</option>
+                        <option value="ai">Anguilla</option>
+                        <option value="aq">Antarctica</option>
+                        <option value="ag">Antigua And Barbuda</option>
+                        <option value="ar">Argentina</option>
+                        <option value="am">Armenia</option>
+                        <option value="aw">Aruba</option>
+                        <option value="au">Australia</option>
+                        <option value="at">Austria</option>
+                        <option value="az">Azerbaijan</option>
+                        <option value="bs">Bahamas</option>
+                        <option value="bh">Bahrain</option>
+                        <option value="bd">Bangladesh</option>
+                        <option value="bb">Barbados</option>
+                        <option value="by">Belarus</option>
+                        <option value="be">Belgium</option>
+                        <option value="bz">Belize</option>
+                        <option value="bj">Benin</option>
+                        <option value="bm">Bermuda</option>
+                        <option value="bt">Bhutan</option>
+                        <option value="bo">Bolivia</option>
+                        <option value="bq">Bonaire, Sint Eustatius and Saba</option>
+                        <option value="ba">Bosnia And Herzegovina</option>
+                        <option value="bw">Botswana</option>
+                        <option value="bv">Bouvet Island</option>
+                        <option value="br">Brazil</option>
+                        <option value="io">British Indian Ocean Territory</option>
+                        <option value="bn">Brunei Darussalam</option>
+                        <option value="bg">Bulgaria</option>
+                        <option value="bf">Burkina Faso</option>
+                        <option value="bi">Burundi</option>
+                        <option value="kh">Cambodia</option>
+                        <option value="cm">Cameroon</option>
+                        <option value="ca">Canada</option>
+                        <option value="cv">Cape Verde</option>
+                        <option value="ky">Cayman Islands</option>
+                        <option value="cf">Central African Republic</option>
+                        <option value="td">Chad</option>
+                        <option value="cl">Chile</option>
+                        <option value="cn">China</option>
+                        <option value="cx">Christmas Island</option>
+                        <option value="cc">Cocos (Keeling) Islands</option>
+                        <option value="co">Colombia</option>
+                        <option value="km">Comoros</option>
+                        <option value="cg">Congo</option>
+                        <option value="cd">Congo, The Democratic Republic Of The</option>
+                        <option value="tf">Territory of the French Southern and Antarctic Lands</option>
+                      </optgroup></select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="contact-us__others-info">
+              <ul class="others-menu__list">
+                <li class="others-item">
+                  <a class="others-item__link" href="#">Archive</a>
+                </li>
+                <li class="others-item">
+                  <a class="others-item__link" href="#">Contact Us</a>
+                </li>
+                <li class="others-item">
+                  <a class="others-item__link" href="#">Press Resources</a>
+                </li>
+                <li class="others-item">
+                  <a class="others-item__link" href="#">Legal Info</a>
+                </li>
+                <li class="others-item">
+                  <a class="others-item__link" href="#">Privacy Policy</a>
+                </li>
+                <li class="others-item">
+                  <a class="others-item__link" href="#">Cookie Settings</a>
+                </li>
+                <li class="others-item">
+                  <a class="others-item__link" href="#">Imprint</a>
+                </li>
+              </ul>
+              <div class="logo-signature">
+                <img class="logo" src="IMG/ableton-hallmark.svg" alt="logo">
+                <span class="signature">Made in Berlin</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      [...document.getElementsByClassName('video-view')].forEach(el => {
+        el.addEventListener('click', function(e) {
+          let popup = document.getElementById(this.dataset.url);
+          if (popup) {
+            popup.classList.add('opened');
+            document.getElementById('video-content').classList.add('opened');
+          };
+          e.stopPropagation();
+          window.addEventListener('keydown', closeOnEscape);
+        })
+      });
+      document.getElementById('video-content').addEventListener('click', closeVideo);
+     function closeVideo() {
+        let popup = document.getElementById('video-content');
+        if (popup) {
+          popup.classList.remove('opened');
+          let videoWrap = popup.querySelector('.opened');
+          if (videoWrap) {
+            videoWrap.querySelector('iframe').contentWindow.postMessage('{"event": "command", "func": "stopVideo"}', '*');
+            videoWrap.classList.remove('opened');
+          }
+          window.removeEventListener('keydown', closeOnEscape);
+        };
+      }
+      function closeOnEscape(e) {
+        if (e.key === 'Escape') { closeVideo(); }
+      }
+    </script>
+  </div>
+</body>
+</html>
