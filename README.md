@@ -23,3 +23,5 @@ This is my Full Stack repository
 ### *Занятие 6. Онлайн редактор PostgreSQL. Как не потерять свою базу данных*
 * Обзор возможностей меню онлайн редактора (File, Export, Import);
 * Обзор форматов .csv и .json для экспорта данных.
+### *SQL. Домашка №1*
+* [= I =](https://sqliteonline.com/#sharedb=p%3Ajamir)
