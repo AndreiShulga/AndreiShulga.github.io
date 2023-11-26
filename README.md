@@ -25,3 +25,6 @@ This is my Full Stack repository
 * Обзор форматов .csv и .json для экспорта данных.
 ### *SQL. Домашка №1*
 * [= I =](https://sqliteonline.com/#sharedb=p%3Ajamir)
+  ### *Занятие 7. Команды DELETE и UPDATE*
+* Команда UPDATE - для изменения данных в таблице;
+* Команда DELETE - для удаления данных в таблице.
