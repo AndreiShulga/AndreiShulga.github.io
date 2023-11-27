@@ -32,3 +32,9 @@ This is my Full Stack repository
 * [= II_part_1 =](https://sqliteonline.com/#share=ba9ece3ee4a3934bea632dba62827c0c168ab0f33c2e4a90f7018c6d4884983c)
 * [= II_part_2 =](https://sqliteonline.com/#share=7a8e4528af337605a819ba69f97d7fa9ade5b9049fc0f9d7f0561190a51934c7)
 * [= II_part_3 =](https://sqliteonline.com/#share=da009d2c8a4a8b913fca6f1f1c3c6386c60b4df8b9728e7a4c3c4bfe36377884)
+### *Занятие 8. Подробный SELECT*
+* Команда SELECT - для извлечения данных из таблиц;
+* Предложение WHERE - для фильтрации данных при помощи операторов;
+* Для чего нужен оператор OR ? - для комбинирования условий (одно из условий должно совпасть);
+* Как обозначается знак "НЕ РАВНО" ? - символы <>;
+* Для чего нужен оператор AND ? - для объединения условий (все условия должны совпасть).
