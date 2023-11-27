@@ -24,7 +24,7 @@ This is my Full Stack repository
 * Обзор возможностей меню онлайн редактора (File, Export, Import);
 * Обзор форматов .csv и .json для экспорта данных.
 ### *SQL. Домашка №1*
-* [= I =]([https://sqliteonline.com/#sharedb=p%3Ajamir](https://sqliteonline.com/#share=9da086518f6806eadd5dbe1fef2eaf89ffa5541dc6ce506fb3cbdf71b2f21832))
+* [= I =](https://sqliteonline.com/#share=9da086518f6806eadd5dbe1fef2eaf89ffa5541dc6ce506fb3cbdf71b2f21832)
 ### *Занятие 7. Команды DELETE и UPDATE*
 * Команда UPDATE - для изменения данных в таблице;
 * Команда DELETE - для удаления данных в таблице.
