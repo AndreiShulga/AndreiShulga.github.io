@@ -38,3 +38,9 @@ This is my Full Stack repository
 * Для чего нужен оператор OR ? - для комбинирования условий (одно из условий должно совпасть);
 * Как обозначается знак "НЕ РАВНО" ? - символы <>;
 * Для чего нужен оператор AND ? - для объединения условий (все условия должны совпасть).
+  ### *SQL. Домашка №3*
+* [= III_part_1 =](https://sqliteonline.com/#share=76da03ba156367b09f77fee4195d604945c5a90724583b40fabe66756ff1123b)
+* [= III_part_2 =](https://sqliteonline.com/#share=857cfa89f3380d2a78a8bd7fb188d2423a63b0ac4bf6647355e0a4a2639f2e1c)
+* [= III_part_3 =](https://sqliteonline.com/#share=0fa6dfc08bd6a644bb9ac1ddeee28a4dc37667a6b8a4b2ca19baf3d86dd1df75)
+* [= III_part_4 =](https://sqliteonline.com/#share=6ce3e8a2b745b212e84ba2f26dd5f73e39b3d9801666fe0f0dc051642ea2a8bb)
+* [= III_part_5 =](https://sqliteonline.com/#share=b3dc93466b9d59e2f943d584bec41285e819c5d6cfbd22454434ddcbf0ef2440)
