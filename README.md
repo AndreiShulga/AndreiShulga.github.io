@@ -49,3 +49,9 @@ This is my Full Stack repository
 * Оператор LIKE - для поиска данных по шаблону при помощи операторов подстановки " % " и " _ ";
 * Что обозначает специальный символ '%' ? - оператор подстановки, который заменяет любое количество любых символов;
 * Что обозначает специальный символ '_' ? - оператор подстановки, который заменяет только один любой символов.
+### *SQL. Домашка №4*
+* [= IV_part_1 =](https://sqliteonline.com/#share=4e05cbffa87da30fd453818e39b5a3249ccedaf5b547d06bb218705d620adacf)
+* [= IV_part_2 =](https://sqliteonline.com/#share=e4df0ad39992b3395fb8303e8a56dcb7077d143ce68dcd3b05e1036452133362)
+* [= IV_part_3 =](https://sqliteonline.com/#share=93c3a82856c50807952878ea0f4df713f8ca7240ce0ee3f9470d6eac2674bbcd)
+* [= IV_part_4 =](https://sqliteonline.com/#share=00ddaea552873d0ee7107d417e994243815d8c07b7b3a718011914049a4288f9)
+* [= IV_part_5 =](https://sqliteonline.com/#share=2826809bb74ebd12143543d33316e22f79b2ff91e9749fb0504b21f55d519a2d)
