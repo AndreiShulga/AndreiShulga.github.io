@@ -66,3 +66,8 @@ This is my Full Stack repository
 * Может ли первичный ключ состоять из нескольких полей? - да, может;
 * Может ли вторичный ключ состоять из нескольких полей? - да, может;
 * Для чего нужны внешние ключи? - для связи таблиц (БД) и чтобы мы случайно не смогли сослаться на несуществующую запись.
+  ### *SQL. Домашка №5*
+* [= V_part_1 =](https://sqliteonline.com/#share=3ae117682f2e239a46a0271416f298c7713e0a070201b6c69ad6bc2fb741cdca)
+* [= V_part_2 =](https://sqliteonline.com/#share=48290810896411601b39f2a6b267cdc4988b662e0c9d6dc4ebb782be480acb88)
+* [= V_part_3 =](https://sqliteonline.com/#share=658f6f430cbf3c7d2a842c189153ad81df3bdec64b649fedbac518d50d25e705)
+* [= V_part_4 =](https://sqliteonline.com/#share=2764ca4073f2b225c375132b1db93951099444e870145225ec97662cd5e66d8b)
