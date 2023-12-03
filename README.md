@@ -74,3 +74,5 @@ This is my Full Stack repository
 ### *Занятие 13. Составной ключ*
 * Что такое составной ключ? - ключ, который состоит из нескольких значений (колонок);
 * Сколько колонок минимум может быть задействовано в составном ключе? - от 2-ух колонок (значений).
+### *SQL. Домашка №6*
+* [= VI_=](https://docs.google.com/spreadsheets/d/1y-BHxmeVleCnMXOmk4Vt-Rt1u7OY8yenJR0pexco_So/edit?usp=sharing)
