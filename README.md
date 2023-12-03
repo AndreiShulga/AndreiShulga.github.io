@@ -76,3 +76,8 @@ This is my Full Stack repository
 * Сколько колонок минимум может быть задействовано в составном ключе? - от 2-ух колонок (значений).
 ### *SQL. Домашка №6*
 * [= VI =](https://docs.google.com/spreadsheets/d/1y-BHxmeVleCnMXOmk4Vt-Rt1u7OY8yenJR0pexco_So/edit?usp=sharing)
+### *Занятие 14. Alter Table*
+* Что делает SQL запрос: "ALTER TABLE table_name ADD COLUMN column_name text" ? - добавляет колонку в таблицу;
+* Что делает SQL запрос: "ALTER TABLE table_name DROP COLUMN column_name" ? - удаляет колонку из таблицы;
+* Что делает SQL запрос: "ALTER TABLE table_name RENAME TO table_name2" ? - переименовывает таблицу;
+* Что делает SQL запрос: "ALTER TABLE table_name RENAME COLUMN column_name1 TO column_name2" ? - переименовывает колонку в таблице.
