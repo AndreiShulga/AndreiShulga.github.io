@@ -71,3 +71,6 @@ This is my Full Stack repository
 * [= V_part_2 =](https://sqliteonline.com/#share=48290810896411601b39f2a6b267cdc4988b662e0c9d6dc4ebb782be480acb88)
 * [= V_part_3 =](https://sqliteonline.com/#share=658f6f430cbf3c7d2a842c189153ad81df3bdec64b649fedbac518d50d25e705)
 * [= V_part_4 =](https://sqliteonline.com/#share=2764ca4073f2b225c375132b1db93951099444e870145225ec97662cd5e66d8b)
+### *Занятие 13. Составной ключ*
+* Что такое составной ключ? - ключ, который состоит из нескольких значений (колонок);
+* Сколько колонок минимум может быть задействовано в составном ключе? - от 2-ух колонок (значений).
