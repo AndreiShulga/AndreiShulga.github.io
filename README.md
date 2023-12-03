@@ -66,7 +66,7 @@ This is my Full Stack repository
 * Может ли первичный ключ состоять из нескольких полей? - да, может;
 * Может ли вторичный ключ состоять из нескольких полей? - да, может;
 * Для чего нужны внешние ключи? - для связи таблиц (БД) и чтобы мы случайно не смогли сослаться на несуществующую запись.
-  ### *SQL. Домашка №5*
+### *SQL. Домашка №5*
 * [= V_part_1 =](https://sqliteonline.com/#share=3ae117682f2e239a46a0271416f298c7713e0a070201b6c69ad6bc2fb741cdca)
 * [= V_part_2 =](https://sqliteonline.com/#share=48290810896411601b39f2a6b267cdc4988b662e0c9d6dc4ebb782be480acb88)
 * [= V_part_3 =](https://sqliteonline.com/#share=658f6f430cbf3c7d2a842c189153ad81df3bdec64b649fedbac518d50d25e705)
@@ -81,3 +81,11 @@ This is my Full Stack repository
 * Что делает SQL запрос: "ALTER TABLE table_name DROP COLUMN column_name" ? - удаляет колонку из таблицы;
 * Что делает SQL запрос: "ALTER TABLE table_name RENAME TO table_name2" ? - переименовывает таблицу;
 * Что делает SQL запрос: "ALTER TABLE table_name RENAME COLUMN column_name1 TO column_name2" ? - переименовывает колонку в таблице.
+### *SQL. Домашка №6*
+* [= VII_part_1 =](https://sqliteonline.com/#share=11405d86f5489f137ec7e858215f1a34ab48742319a110a56943ed7adcbf92f8)
+* [= VII_part_2 =](https://sqliteonline.com/#share=99fdf074e057a8abd7e60b9318c081502e364214dba85f54379e08f7c3ff9b21)
+* [= VII_part_3 =](https://sqliteonline.com/#share=b8d5617a8af7f1f45142ac6698da5530d7558640b57e847510e63bb484121267)
+* [= VII_part_4 =](https://sqliteonline.com/#share=4f5ada6bbeb33b8438f137350ab1fd7f671776970b0dccdae658ca5d3de4a33b)
+* [= VII_part_5 =](https://sqliteonline.com/#share=3fc173b1860157556934b6b39348b7d181387c5c629fe04ed33f1c078bd6355a)
+* [= VII_part_6 =](https://sqliteonline.com/#share=19928cdcb4a7b8631caa9bfdfdfe4248dbe425c840cf964bfd2f123028e2601d)
+* [= VII_part_7 =](https://sqliteonline.com/#share=1810623b42657bc457f1e14aff47ff67b6d1c22e276a450e12fbe7288f4aad0f)
