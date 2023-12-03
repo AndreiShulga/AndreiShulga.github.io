@@ -81,7 +81,7 @@ This is my Full Stack repository
 * Что делает SQL запрос: "ALTER TABLE table_name DROP COLUMN column_name" ? - удаляет колонку из таблицы;
 * Что делает SQL запрос: "ALTER TABLE table_name RENAME TO table_name2" ? - переименовывает таблицу;
 * Что делает SQL запрос: "ALTER TABLE table_name RENAME COLUMN column_name1 TO column_name2" ? - переименовывает колонку в таблице.
-### *SQL. Домашка №6*
+### *SQL. Домашка №7*
 * [= VII_part_1 =](https://sqliteonline.com/#share=11405d86f5489f137ec7e858215f1a34ab48742319a110a56943ed7adcbf92f8)
 * [= VII_part_2 =](https://sqliteonline.com/#share=99fdf074e057a8abd7e60b9318c081502e364214dba85f54379e08f7c3ff9b21)
 * [= VII_part_3 =](https://sqliteonline.com/#share=b8d5617a8af7f1f45142ac6698da5530d7558640b57e847510e63bb484121267)
