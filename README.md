@@ -89,3 +89,5 @@ This is my Full Stack repository
 * [= VII_part_5 =](https://sqliteonline.com/#share=3fc173b1860157556934b6b39348b7d181387c5c629fe04ed33f1c078bd6355a)
 * [= VII_part_6 =](https://sqliteonline.com/#share=19928cdcb4a7b8631caa9bfdfdfe4248dbe425c840cf964bfd2f123028e2601d)
 * [= VII_part_7 =](https://sqliteonline.com/#share=1810623b42657bc457f1e14aff47ff67b6d1c22e276a450e12fbe7288f4aad0f)
+### *Занятие 16. Как посмотреть структуру таблицы*
+* Мы создали таблицу SQL запросом. А как БД запомнит, созданные нами таблицы? - БД хранит данные о наших таблицах в своих таблицах.
