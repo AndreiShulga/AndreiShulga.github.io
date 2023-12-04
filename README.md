@@ -91,3 +91,10 @@ This is my Full Stack repository
 * [= VII_part_7 =](https://sqliteonline.com/#share=1810623b42657bc457f1e14aff47ff67b6d1c22e276a450e12fbe7288f4aad0f)
 ### *Занятие 16. Как посмотреть структуру таблицы*
 * Мы создали таблицу SQL запросом. А как БД запомнит, созданные нами таблицы? - БД хранит данные о наших таблицах в своих таблицах.
+### *Занятие 17. ORDER BY, LIMIT, IF NOT EXISTS*
+* Будет ли ошибка есть выполнить CREATE запрос на создание таблицы которая уже существует? - не будет только если мы добавим в запрос Create table IF NOT EXISTS "table_name" (...);
+* Команда ORDER BY - используется для сортировки данных в колонках таблицы по возрастанию (ASC) или убыванию (DESC);
+* Какой параметр команды  ORDER BY используется по умолчанию? - обычно по умолчанию сортировка по возрастанию (ASC)
+  (SELECT * FROM "table_name" ORDER BY "column_name" ASC) = (SELECT * FROM "table_name" ORDER BY "column_name");
+* Команда LIMIT - позволяет отобразить через SELECT не все данные таблицы, а только указанное количество;
+  (SELECT * FROM "table_name" ORDER BY "column_name" DESC LIMIT 3) - запрос выдаст 3 записи из колонки по убыванию.
