@@ -94,7 +94,7 @@ This is my Full Stack repository
 ### *Занятие 17. ORDER BY, LIMIT, IF NOT EXISTS*
 * Будет ли ошибка есть выполнить CREATE запрос на создание таблицы которая уже существует? - не будет только если мы добавим в запрос Create table IF NOT EXISTS "table_name" (...);
 * Команда ORDER BY - используется для сортировки данных в колонках таблицы по возрастанию (ASC) или убыванию (DESC);
-* Какой параметр команды  ORDER BY используется по умолчанию? - обычно по умолчанию сортировка по возрастанию (ASC)
-  (SELECT * FROM "table_name" ORDER BY "column_name" ASC) = (SELECT * FROM "table_name" ORDER BY "column_name");
+* Какой параметр команды  ORDER BY используется по умолчанию? - обычно по умолчанию сортировка по возрастанию (ASC);
+* Пример: (SELECT * FROM "table_name" ORDER BY "column_name" ASC) = (SELECT * FROM "table_name" ORDER BY "column_name");
 * Команда LIMIT - позволяет отобразить через SELECT не все данные таблицы, а только указанное количество;
-  (SELECT * FROM "table_name" ORDER BY "column_name" DESC LIMIT 3) - запрос выдаст 3 записи из колонки по убыванию.
+* Пример: (SELECT * FROM "table_name" ORDER BY "column_name" DESC LIMIT 3) - запрос выдаст 3 записи из колонки по убыванию.
