@@ -29,9 +29,8 @@ This is my Full Stack repository
 * Команда UPDATE - для изменения данных в таблице;
 * Команда DELETE - для удаления данных в таблице.
 ### *SQL. Домашка №2*
-* [= II_part_1 =](https://sqliteonline.com/#share=ba9ece3ee4a3934bea632dba62827c0c168ab0f33c2e4a90f7018c6d4884983c)
-* [= II_part_2 =](https://sqliteonline.com/#share=7a8e4528af337605a819ba69f97d7fa9ade5b9049fc0f9d7f0561190a51934c7)
-* [= II_part_3 =](https://sqliteonline.com/#share=da009d2c8a4a8b913fca6f1f1c3c6386c60b4df8b9728e7a4c3c4bfe36377884)
+* [= II_part_1 =](https://sqliteonline.com/#share=de840ff770380591dbc47272ae555445566d88da14b7293434b2dc3ad0b44f61)
+* [= II_part_2 =](https://sqliteonline.com/#share=1130ab5163cf0f2e675bc9130e1e0dca2f162e517bf519e1b58c85ad4634eab8)
 ### *Занятие 08. Подробный SELECT*
 * Команда SELECT - для извлечения данных из таблиц;
 * Предложение WHERE - для фильтрации данных при помощи операторов;
@@ -67,10 +66,7 @@ This is my Full Stack repository
 * Может ли вторичный ключ состоять из нескольких полей? - да, может;
 * Для чего нужны внешние ключи? - для связи таблиц (БД) и чтобы мы случайно не смогли сослаться на несуществующую запись.
 ### *SQL. Домашка №5*
-* [= V_part_1 =](https://sqliteonline.com/#share=3ae117682f2e239a46a0271416f298c7713e0a070201b6c69ad6bc2fb741cdca)
-* [= V_part_2 =](https://sqliteonline.com/#share=48290810896411601b39f2a6b267cdc4988b662e0c9d6dc4ebb782be480acb88)
-* [= V_part_3 =](https://sqliteonline.com/#share=658f6f430cbf3c7d2a842c189153ad81df3bdec64b649fedbac518d50d25e705)
-* [= V_part_4 =](https://sqliteonline.com/#share=2764ca4073f2b225c375132b1db93951099444e870145225ec97662cd5e66d8b)
+* [= V_=](https://sqliteonline.com/#share=0167652afb927b364d223c257955a052bb06cad2731623fd3315fdb3ad55749d)
 ### *Занятие 13. Составной ключ*
 * Что такое составной ключ? - ключ, который состоит из нескольких значений (колонок);
 * Сколько колонок минимум может быть задействовано в составном ключе? - от 2-ух колонок (значений).
@@ -82,13 +78,9 @@ This is my Full Stack repository
 * Что делает SQL запрос: "ALTER TABLE table_name RENAME TO table_name2" ? - переименовывает таблицу;
 * Что делает SQL запрос: "ALTER TABLE table_name RENAME COLUMN column_name1 TO column_name2" ? - переименовывает колонку в таблице.
 ### *SQL. Домашка №7*
-* [= VII_part_1 =](https://sqliteonline.com/#share=11405d86f5489f137ec7e858215f1a34ab48742319a110a56943ed7adcbf92f8)
-* [= VII_part_2 =](https://sqliteonline.com/#share=99fdf074e057a8abd7e60b9318c081502e364214dba85f54379e08f7c3ff9b21)
-* [= VII_part_3 =](https://sqliteonline.com/#share=b8d5617a8af7f1f45142ac6698da5530d7558640b57e847510e63bb484121267)
-* [= VII_part_4 =](https://sqliteonline.com/#share=4f5ada6bbeb33b8438f137350ab1fd7f671776970b0dccdae658ca5d3de4a33b)
-* [= VII_part_5 =](https://sqliteonline.com/#share=3fc173b1860157556934b6b39348b7d181387c5c629fe04ed33f1c078bd6355a)
-* [= VII_part_6 =](https://sqliteonline.com/#share=19928cdcb4a7b8631caa9bfdfdfe4248dbe425c840cf964bfd2f123028e2601d)
-* [= VII_part_7 =](https://sqliteonline.com/#share=1810623b42657bc457f1e14aff47ff67b6d1c22e276a450e12fbe7288f4aad0f)
+* [= VII_part_1 =](https://sqliteonline.com/#share=cc7a9c9f410a9fba3f30796b8f7d90e4f3eb7109e35cd2a7182bb995e69b293e)
+* [= VII_part_2 =](https://sqliteonline.com/#share=bb7e62c6947312267ae36b5bd452f8086dc38aa0d8eb8ba1486625183d79c936)
+* [= VII_part_3 =](https://sqliteonline.com/#share=228a99d60310e7057461ff128ed547221a91e43dd8cf2ced6f2e95e511ca5eb5)
 ### *Занятие 16. Как посмотреть структуру таблицы*
 * Мы создали таблицу SQL запросом. А как БД запомнит, созданные нами таблицы? - БД хранит данные о наших таблицах в своих таблицах.
 ### *Занятие 17. ORDER BY, LIMIT, IF NOT EXISTS*
