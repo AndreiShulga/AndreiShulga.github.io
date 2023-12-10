@@ -129,3 +129,12 @@ This is my Full Stack repository
 * [= IX_part_1 =](https://sqliteonline.com/#share=b1d61b24191c03ccb1afeb78b19247b72abf2eeaad5c2be90e2e3337c03b62e2)
 * [= IX_part_2 =](https://sqliteonline.com/#share=8f41dfc651a83144725a6708a26af74109d5f88cfbf14543c05f390cf58cbf07)
 * [= IX_part_3 =](https://sqliteonline.com/#share=ce0707132bdc6e17b87a7a67e360ce5366826cdb6dc80e87caa6af45ebd7d100)
+### *Занятие 23. Join*
+* Какие типы джойнов существуют?
+  * INNER;
+  * LEFT;
+  * RIGHT;
+  * CROSS;
+* Для чего может быть полезен CROSS JOIN ? - для генерации пар каждый с каждым;
+* Сколько минимум раз будет написано слово JOIN при соединении таблиц, состоящих в отношении "Многие о многим" ? - минимум 2 раза;
+
