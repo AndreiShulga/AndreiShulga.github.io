@@ -114,6 +114,8 @@ This is my Full Stack repository
 * Ограничение DEFAULT - устанавливает значение колонки по умолчанию.
 ### *Занятие 21. Подзапросы*
 * Что такое подзапрос в SQL? - запрос, который содержит вложенный запрос.
+### *SQL. Домашка №8*
+* [= VIII =](https://docs.google.com/spreadsheets/d/1y-BHxmeVleCnMXOmk4Vt-Rt1u7OY8yenJR0pexco_So/edit?usp=sharing)
 ### *Занятие 22. Связи таблиц*
 * Какой будет тип связи у таблиц: "Люди" и "Номера автомобилей", если считать что каждый автомобильный номер уникальный, а у человека может быть только одна машина ? - тип связи "один к одному";
 * Сколько таблиц должно быть минимум задействовано для реализации связи многие ко многим ? - минимум 3 основных таблицы + 1 вспомогательная;
@@ -123,3 +125,7 @@ This is my Full Stack repository
   * один к одному;
   * один ко многим;
   * многие ко многим.
+### *SQL. Домашка №9*
+* [= IX_part_1 =](https://sqliteonline.com/#share=b1d61b24191c03ccb1afeb78b19247b72abf2eeaad5c2be90e2e3337c03b62e2)
+* [= IX_part_2 =](https://sqliteonline.com/#share=8f41dfc651a83144725a6708a26af74109d5f88cfbf14543c05f390cf58cbf07)
+* [= IX_part_3 =](https://sqliteonline.com/#share=ce0707132bdc6e17b87a7a67e360ce5366826cdb6dc80e87caa6af45ebd7d100)
