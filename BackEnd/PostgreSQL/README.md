@@ -1,5 +1,5 @@
 # AndreiShulga.github.io
-This is my Full Stack repository
+This is my cheat sheet on PostgreSQL
 ## **1. SQL**
 ### *Занятие 01. Введение*
 * Что такое SQL? - Язык для работы с данными;
