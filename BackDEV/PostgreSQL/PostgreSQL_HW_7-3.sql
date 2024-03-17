@@ -1,0 +1,1 @@
+ALTER TABLE fruits RENAME TO super_tasty_fruits;
